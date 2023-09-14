@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'fonteBebas'sans-serif;
+}
+
+.fontebebas {
+    font-family:'Bebas Neue', sans-serif; ;
+}
+
+body{
+    background-color: #e6e6fa;
+    color: #191970;
+}
+
+header{
+    
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    letter-spacing: 0.1rem;
+    text-shadow: 1px 1px rgb(8, 252, 28);
+}
+
+nav{
+    background-color: rgb(44, 41, 36);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    border-top: 2px solid #191970;
+    border-bottom: 3px solid #11114b;   
+}
+
+nav a{
+    text-decoration: none;
+    color:rgb(114, 243, 136);
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    text-shadow: 0 1px rgb(21, 255, 0);
+
+
+}
+
+a{
+    text-decoration: none;
+    color:azure;
+    font-weight: 600;
+    text-shadow: 0 1px rgb(72, 255, 0);
+}
+
+nav a:hover{
+    color:rgb(0, 250, 0);
+    text-shadow: -6px -3px 3px #2bff00;
+    
+    
+
+    transition: 1s;
+}
+
+main{
+    width:100%;
+}
+
+main article{
+    padding-left: 25px;
+}
+
+main article h2{
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.company{
+    color:blue
+}
+
+ul{
+    margin-left: 40%;
+    margin-right: 35%;
+}
+
+li.alternative{
+    font-style: italic;
+}
+
+footer{
+    margin-top: 70px;
+    text-align: right;
+    background-color: black;
+    padding-right: 16px;
+    border-top: 3px solid #ccc;
+    line-height: 32px;
+    color: white;
+    
+}
